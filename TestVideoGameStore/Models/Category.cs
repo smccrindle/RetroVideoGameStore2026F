@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace RetroVideoGameStore.Models
+namespace TestVideoGameStore.Models
 {
     public class Category
     {

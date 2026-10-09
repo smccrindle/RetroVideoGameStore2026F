@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using RetroVideoGameStore.Models;
+using TestVideoGameStore.Models;
 
-namespace RetroVideoGameStore.Data
+namespace TestVideoGameStore.Data
 {
     public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : IdentityDbContext(options)
     {

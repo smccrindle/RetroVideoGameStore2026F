@@ -1,4 +1,4 @@
-namespace RetroVideoGameStore.Models
+namespace TestVideoGameStore.Models
 {
     public class ErrorViewModel
     {

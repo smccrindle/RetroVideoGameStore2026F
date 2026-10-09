@@ -4,7 +4,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-RetroVideoGameStore-4e63d8d8-4428-457c-bf96-3f7b4f9d8132</UserSecretsId>
+    <UserSecretsId>aspnet-TestVideoGameStore-4e63d8d8-4428-457c-bf96-3f7b4f9d8132</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

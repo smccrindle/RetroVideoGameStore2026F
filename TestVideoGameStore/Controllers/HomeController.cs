@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using RetroVideoGameStore.Models;
+using TestVideoGameStore.Models;
 using System.Diagnostics;
 
-namespace RetroVideoGameStore.Controllers
+namespace TestVideoGameStore.Controllers
 {
     public class HomeController : Controller
     {

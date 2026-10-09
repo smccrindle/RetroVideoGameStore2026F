@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace RetroVideoGameStore.Data.Migrations
+namespace TestVideoGameStore.Data.Migrations
 {
     /// <inheritdoc />
     public partial class AddProductsWithCategoriesRelationship : Migration

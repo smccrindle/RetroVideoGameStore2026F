@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using RetroVideoGameStore.Data;
+using TestVideoGameStore.Data;
 
 #nullable disable
 
-namespace RetroVideoGameStore.Data.Migrations
+namespace TestVideoGameStore.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -224,7 +224,7 @@ namespace RetroVideoGameStore.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("RetroVideoGameStore.Models.Category", b =>
+            modelBuilder.Entity("TestVideoGameStore.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -241,7 +241,7 @@ namespace RetroVideoGameStore.Data.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("RetroVideoGameStore.Models.Product", b =>
+            modelBuilder.Entity("TestVideoGameStore.Models.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -323,9 +323,9 @@ namespace RetroVideoGameStore.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("RetroVideoGameStore.Models.Product", b =>
+            modelBuilder.Entity("TestVideoGameStore.Models.Product", b =>
                 {
-                    b.HasOne("RetroVideoGameStore.Models.Category", "Category")
+                    b.HasOne("TestVideoGameStore.Models.Category", "Category")
                         .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -334,7 +334,7 @@ namespace RetroVideoGameStore.Data.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("RetroVideoGameStore.Models.Category", b =>
+            modelBuilder.Entity("TestVideoGameStore.Models.Category", b =>
                 {
                     b.Navigation("Products");
                 });
